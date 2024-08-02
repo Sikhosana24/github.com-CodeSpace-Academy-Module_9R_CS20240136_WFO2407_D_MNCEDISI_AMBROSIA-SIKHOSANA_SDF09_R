@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>BlackJack ♠️♥️♦️♣️</title>
 </head>
     <body>
+        <div class="BlackJack-container">
+            <h1>BlackJack</h1>
+            <p class="subtitle">Want to play around</p>
+            <div class="game-status">
+                <div class="card-info">
+                    <p>Cards:</p>
+                    <div class="cards" id="cards-display"></div>
+                </div>
+                <div class="sum-info">
+                    <p>Sum:</p>
+                    <div class="sum" id="sum-display"></div>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="btn-start-game">START GAME</button>
+                <button id="btn-new-card">NEW CARD</button>
+            </div>
+            <p class="per-amount">Per: $200</p>
+        </div>
+        <script src="scripts.js"></script>
         
     </body>
 </html>
